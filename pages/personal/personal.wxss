@@ -1,0 +1,115 @@
+.rootconfig {
+  background: #efeff9;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.toplayout {
+  background: #d0d0d1;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #42444a;
+  padding: 20rpx;
+}
+
+.userinfo-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #fff;
+  padding-top: 20rpx;
+  font-size: 25rpx;
+}
+
+.enterwx {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: #fff;
+  padding: 15rpx;
+}
+
+.enterwx-text {
+  font-size: 30rpx;
+  margin-left: 35rpx;
+}
+
+.empty {
+  background: #efeff9;
+}
+
+.userorder {
+  background: #fff;
+  width: 100%;
+}
+
+.orderlayout {
+  margin-top: 1rpx;
+  padding: 20rpx 35rpx;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  z-index: 999;
+}
+
+.orderlayout image {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.orderlayout text {
+  font-size: 28rpx;
+  color: #000;
+}
+
+.oriderinfo {
+  padding: 20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.oriderinfo image {
+  width: 150rpx;
+  height: 200rpx;
+  margin-right: 40rpx;
+}
+
+.orderinfo-textinfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.orderinfo-textinfo text {
+  font-size: 30rpx;
+}
+
+.bollow {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.bollow text {
+  color: #8a8a8f;
+  font-size: 25rpx;
+}
+
+.course {
+  width: 100%;
+  margin-top: 80rpx;
+  background: #fff;
+  height: 350rpx;
+}

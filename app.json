@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/personal/personal"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "大师轻松学",
+    "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+      "color": "#9BABBA",
+      "selectedColor": "#495056",
+      "borderStyle": "white",
+      "backgroundColor": "#ffffff",
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "探索",
+          "iconPath": "static/images/search.png",
+          "selectedIconPath": "static/images/sesearch.png"
+        },
+        {
+          "pagePath": "pages/personal/personal",
+          "text": "账户",
+          "iconPath": "static/images/personal.png",
+          "selectedIconPath": "static/images/sepersonal.png"
+        }
+       
+      ]
+    },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}
